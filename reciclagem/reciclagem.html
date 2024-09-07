@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reciclagem</title>
+    <link rel="stylesheet" href="../fonts.css" />
+    <link rel="stylesheet" href="reciclagem_style.css"/>
+    
+  </head>
+  <body>
+    <nav>
+      <div class="title_container">
+        <h1>ECO FUTURE</h1>
+
+        <img src="../folhinha.png" alt="folhinha" />
+      </div>
+
+      <div class="menu_links">
+        <a href="../inicio/index.html">Início</a>
+        <a href="../reciclagem/reciclagem.html">Reciclagem</a>
+        <a href="../impacto/impacto.html">Impacto</a>
+        <a href="../contribua/contribua.html">Contribua</a>
+      </div>
+    </nav>
+
+    <main>
+      <div class="img_container">
+        <img src="img-reciclagem.png" alt="imagem reciclagem" />
+      </div>
+
+      <div class="heading">
+        <h1>Reciclagem</h1>
+
+        <p>
+          Reciclagem é o processo de conversão de desperdício em materiais ou
+          produtos de potencial utilidade.
+        </p>
+
+        <p>
+          a reciclagem pode ser feita através de lixeiras coloridas, veja o que
+          cada uma indica.
+        </p>
+      </div>
+    </main>
+
+    <img
+      src="./setaprabaixo.png"
+      alt="seta pra baixo"
+      style="height: 50px; width: 50px; margin: auto; cursor: pointer"
+      onclick="scrollar()"
+    />
+
+    <div class="lixeiras1">
+      <img src="./lixeiras1.webp" alt="lixeiras 1" />
+
+      <div>
+        <h1>Lixeiras</h1>
+
+        <p>
+          <span class="txt_azul">AZUL</span> - despejo de papeis e papelão, como
+          caixas e folhas de sulfite.
+        </p>
+        <p>
+          <span class="txt_amarelo"> Amarelo </span> - dedicada ao despejo de
+          objetos de Metal, como as latinhas de bebidas e outros produtos.
+        </p>
+      </div>
+    </div>
+
+    <div class="lixeiras2">
+      <img src="./lixeiras2.webp" alt="lixeiras 2" />
+
+      <div>
+        <p>
+          <span class="txt_verde">verde</span> - despejo de papeis e papelão,
+          como caixas e folhas de sulfite.
+        </p>
+        <p>
+          <span class="txt_vermelho"> vermelho </span> - dedicada ao despejo de
+          objetos de Metal, como as latinhas de bebidas e outros produtos.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      function scrollar() {
+        let destination = document.querySelector(".lixeiras1");
+
+        // Scroll to the destination using
+        // scrollIntoView method
+        destination.scrollIntoView({
+          behavior: "smooth",
+        });
+      }
+    </script>
+  </body>
+</html>

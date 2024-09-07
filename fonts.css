@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Bottle Party Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("bottleparty.otf") format("opentype");
+}
+@font-face {
+  font-family: "DOLAC Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("dreaming-outloud-allcaps-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Buk Judes Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("BukJudes.ttf") format("truetype");
+}

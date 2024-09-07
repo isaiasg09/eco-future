@@ -1,0 +1,82 @@
+
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        background-image: url("bg-impacto.png");
+        background-size: 100vw;
+        background-position: 0 -80px;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      .title_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 1rem 6rem; */
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 6rem;
+        color: black;
+        font-size: xx-large;
+        margin-bottom: 0;
+        /* font-family: "Cranberry Regular"; */
+        font-family: "Buk Judes Regular";
+        /* font-weight: 100; */
+        /* line-height: ; */
+      }
+      .menu_links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 55%;
+      }
+      .menu_links a {
+        text-decoration: none;
+        color: black;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 7rem;
+        /* margin: auto; */
+        margin-top: -40px;
+        width: 80%;
+        font-family: "DOLAC Regular";
+      }
+
+      main h1 {
+        font-size: 7rem;
+        margin: 0;
+        color: #79b43f;
+        font-family: "Bottle Party Regular";
+        text-transform: uppercase;
+      }
+
+      main p {
+        font-size: 3rem;
+        /* margin: 2rem 0; */
+        color: #797878;
+      }
+
+      main div {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: space-between; */
+      }
+
+      main div p {
+        margin: 0;
+      }
+
+      main div img {
+        max-width: 30%;
+      }

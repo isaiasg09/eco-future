@@ -1,0 +1,171 @@
+
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        background-image: url("bg-reciclagem.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+
+      .title_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 1rem 6rem; */
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 6rem;
+        color: black;
+        font-size: xx-large;
+        margin-bottom: 0;
+        /* font-family: "Cranberry Regular"; */
+        font-family: "Buk Judes Regular";
+        /* font-weight: 100; */
+        /* line-height: ; */
+      }
+      .menu_links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 55%;
+      }
+      .menu_links a {
+        text-decoration: none;
+        color: black;
+      }
+
+      main {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        padding: 0rem 2rem;
+        margin: auto;
+        margin-top: 0;
+        width: 80%;
+        font-family: "DOLAC Regular";
+      }
+
+      .img_container {
+        max-width: 55%;
+      }
+      img {
+        max-width: 100%;
+      }
+
+      .heading {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        text-align: right;
+        /* margin: 0; */
+        /* align-items: start; */
+
+        /* flex: 1; */
+      }
+
+      .heading h1 {
+        font-size: 7rem;
+        margin: 0;
+        margin-bottom: 2rem;
+        color: #f4ab55;
+        font-family: "Bottle Party Regular";
+        text-transform: uppercase;
+      }
+      .heading p {
+        font-size: 2.75rem;
+        margin-bottom: 0px;
+        color: #797878;
+        margin-top: 0px;
+      }
+
+      .lixeiras1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 2rem;
+        margin: auto;
+        margin-top: 3rem;
+        width: 80%;
+        font-family: "DOLAC Regular";
+      }
+
+      .lixeiras1 img {
+        width: 50%;
+        height: 50%;
+      }
+
+      .lixeiras1 div {
+        display: flex;
+        flex-direction: column;
+        max-width: 38%;
+        text-align: right;
+      }
+
+      .lixeiras1 div h1 {
+        font-size: 7rem;
+        margin: 0;
+        margin-bottom: 2rem;
+        color: #f4ab55;
+        font-family: "Bottle Party Regular";
+        text-transform: uppercase;
+      }
+
+      .lixeiras1 div p {
+        font-size: 2.75rem;
+        margin-bottom: 4rem;
+        color: #797878;
+        margin-top: 0px;
+      }
+
+      .txt_azul {
+        color: #448ec1;
+      }
+      .txt_amarelo {
+        color: #fac437;
+      }
+
+      .lixeiras2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 2rem;
+        margin: auto;
+        /* margin-top: 3rem; */
+        width: 80%;
+        font-family: "DOLAC Regular";
+      }
+
+      .lixeiras2 img {
+        width: 50%;
+        height: 50%;
+      }
+
+      .lixeiras2 div {
+        display: flex;
+        flex-direction: column;
+        max-width: 38%;
+        text-align: right;
+      }
+
+      .lixeiras2 div p {
+        font-size: 2.75rem;
+        /* margin-bottom: 4rem; */
+        color: #797878;
+        margin-top: 0px;
+      }
+
+      .txt_verde {
+        color: #81cd34;
+      }
+      .txt_vermelho {
+        color: #ed1e30;
+      }
+   
