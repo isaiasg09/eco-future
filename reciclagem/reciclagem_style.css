@@ -85,85 +85,34 @@ img {
   margin-top: 0px;
 }
 
-.lixeiras1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0rem 2rem;
-  margin: auto;
-  margin-top: 3rem;
-  width: 80%;
-  font-family: "DOLAC Regular";
-}
-
-.lixeiras1 img {
-  width: 50%;
-  height: 50%;
-}
-
-.lixeiras1 div {
-  display: flex;
-  flex-direction: column;
-  max-width: 38%;
-  text-align: right;
-}
-
-.lixeiras1 div h1 {
-  font-size: 7rem;
-  margin: 0;
-  margin-bottom: 2rem;
-  color: #f4ab55;
-  font-family: "Bottle Party Regular";
-  text-transform: uppercase;
-}
-
-.lixeiras1 div p {
-  font-size: 2.75rem;
-  margin-bottom: 4rem;
-  color: #797878;
-  margin-top: 0px;
-}
-
-.txt_azul {
-  color: #448ec1;
-}
-.txt_amarelo {
-  color: #fac437;
-}
-
-.lixeiras2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0rem 2rem;
-  margin: auto;
-  /* margin-top: 3rem; */
-  width: 80%;
-  font-family: "DOLAC Regular";
-}
-
-.lixeiras2 img {
-  width: 50%;
-  height: 50%;
-}
-
-.lixeiras2 div {
-  display: flex;
-  flex-direction: column;
-  max-width: 38%;
-  text-align: right;
-}
-
-.lixeiras2 div p {
-  font-size: 2.75rem;
-  /* margin-bottom: 4rem; */
-  color: #797878;
-  margin-top: 0px;
-}
 
 .txt_verde {
   color: #81cd34;
 }
 .txt_vermelho {
   color: #ed1e30;
+}
+
+.lixeiras {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 2rem;
+  margin: auto;
+  margin-top: 3rem;
+  width: 80%;
+  font-family: "DOLAC Regular";
+  text-align: center;
+}
+
+.lixeiras h1 {
+  font-size: 7rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  color: #f4ab55;
+  font-family: "Bottle Party Regular";
+  text-transform: uppercase;  
+}
+
+.text_container {
+  height: 103rem;
 }
