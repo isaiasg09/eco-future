@@ -25,7 +25,7 @@ nav {
   color: black;
   font-size: xx-large;
   /* font-family: "Cranberry Regular"; */
-  font-family: "Buk Judes Regular";
+  font-family: "Coffe Fills";
   /* font-weight: 100; */
   /* line-height: ; */
 }
@@ -130,3 +130,10 @@ button:hover {
     background-color: lightblue;
   }
 }
+
+@media screen and (max-width: 1480px) {
+  nav {
+    font-size: x-large;
+  }
+}
+  

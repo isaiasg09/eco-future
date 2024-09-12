@@ -17,3 +17,10 @@
   font-weight: normal;
   src: url("./public/fonts/BukJudes.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "Coffe Fills";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./public/fonts/CoffeeFills.ttf") format("truetype");
+}

@@ -16,7 +16,7 @@
       </div>
 
       <div class="menu_links">
-        <a href="../index.html">Início</a>
+        <a href="../index.html">Inicio</a>
         <a href="../reciclagem/reciclagem.html">Reciclagem</a>
         <a href="../impacto/impacto.html">Impacto</a>
         <a href="../contribua/contribua.html">Contribua</a>
@@ -25,11 +25,22 @@
 
     <main>
       <div class="img_container">
-        <img src="./images/ave-transformed.png" alt="imagem reciclagem" />
+        <img src="./images/ave.png" alt="imagem reciclagem" />
       </div>
 
       <div class="heading">
-        <h1>Reciclagem</h1>
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            justify-content: space-between;
+          "
+        >
+          <h1>Reciclagem</h1>
+
+          <img src="./images/reciclar.webp" alt="reciclar" />
+        </div>
 
         <p>
           Reciclagem é o processo de conversão de desperdício em materiais ou
@@ -45,18 +56,46 @@
     </main>
 
     <div class="lixeiras">
-      <h1>LIXEIRAS</h1>
+      <div
+        style="
+          display: flex;
+          margin: 0 auto;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <h1>LIXEIRAS</h1>
+      </div>
 
       <div class="text_container">
-        <div class="text"></div>
-        .
+        <div class="text hide"></div>
       </div>
 
       <div class="imagens_lixeiras">
-        <img src="./images/lixeiras/vermelha.png" alt="lixeira vermelha" />
-        <img src="./images/lixeiras/verde.png" alt="lixeira verde.png" />
-        <img src="./images/lixeiras/azul.png" alt="lixeira azul.png" />
-        <img src="./images/lixeiras/amarela.png" alt="lixeira amarela.png" />
+        <img
+          src="./images/lixeiras/vermelha.png"
+          alt="lixeira vermelha"
+          id="vermelha"
+          onclick="info(this)"
+        />
+        <img
+          src="./images/lixeiras/verde.png"
+          alt="lixeira verde.png"
+          id="verde"
+          onclick="info(this)"
+        />
+        <img
+          src="./images/lixeiras/azul.png"
+          alt="lixeira azul.png"
+          id="azul"
+          onclick="info(this)"
+        />
+        <img
+          src="./images/lixeiras/amarela.png"
+          alt="lixeira amarela.png"
+          id="amarela"
+          onclick="info(this)"
+        />
       </div>
     </div>
 
