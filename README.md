@@ -1,3 +1,5 @@
+![banner](./banner.jpg)
+
 # EcoFuture 🌱
 
 **EcoFuture** é uma iniciativa gratuita focada em educar as pessoas sobre a reciclagem e a importância da sustentabilidade para o planeta. Através de uma plataforma acessível e interativa, incluindo um site e um canal no YouTube, buscamos conscientizar o público sobre práticas de reciclagem e seu impacto ambiental. Nosso objetivo é promover um futuro mais sustentável e engajar a sociedade em ações concretas para a preservação do meio ambiente.
