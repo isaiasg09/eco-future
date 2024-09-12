@@ -5,8 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("bg-impacto.png");
-  background-size: 100vw;
-  background-position: 0 -80px;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -78,4 +77,20 @@ main div p {
 
 main div img {
   max-width: 30%;
+}
+
+@media screen and (max-width: 1860px) {
+  main h1 {
+    font-size: 4rem;
+  }
+  main p {
+    font-size: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 1480px) {
+  nav {
+    font-size: x-large;
+  }
 }

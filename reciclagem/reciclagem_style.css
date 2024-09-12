@@ -357,10 +357,19 @@ img {
     font-size: 3.5rem;
   }
 
+  .text {
+    /* font-size: 2rem; */
+    width: 70%;
+  }
+
+  .text p {
+    font-size: 2rem;
+  }
+
   .imagens_lixeiras {
-    gap: 80px;
+    gap: 100px;
   }
   .imagens_lixeiras img {
-    /* width: 16rem; */
+    width: 14rem;
   }
 }

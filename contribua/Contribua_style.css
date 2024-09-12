@@ -116,7 +116,7 @@ img {
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   -o-border-radius: 12px;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 button:hover {
@@ -126,4 +126,14 @@ button:hover {
 .buttons img {
   width: 7rem;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1480px) {
+  nav {
+    font-size: x-large;
+  }
+
+  .heading h1 {
+    font-size: 6rem;
+  }
 }

@@ -125,15 +125,8 @@ button:hover {
   height: 100%;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
-
 @media screen and (max-width: 1480px) {
   nav {
     font-size: x-large;
   }
 }
-  
