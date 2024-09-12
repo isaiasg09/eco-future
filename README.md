@@ -1,4 +1,4 @@
-![banner](./banner.jpg) { width: 100px; }
+![banner](./banner.jpg =x150)
 
 # EcoFuture 🌱
 
