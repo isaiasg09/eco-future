@@ -1,4 +1,6 @@
-<img src="./banner.jpg" width="150">
+<p align="center">
+  <img src="./banner.jpg" width="250">
+</p>
 
 # EcoFuture 🌱
 
