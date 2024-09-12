@@ -1,4 +1,4 @@
-![banner](./banner.jpg =x150)
+<img src="./baner.jpg" width="150">
 
 # EcoFuture 🌱
 
